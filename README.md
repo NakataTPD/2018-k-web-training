@@ -2,8 +2,8 @@
 Webシステム開発の実習に使用します。
 
 ## 開発環境について
-使用言語：`Java（ver.８以降）、Groovy、JavaScript（ES2015以降）、HTML5、CSS3`
-フレームワーク：`SpringBoot（ver.2以降）、Spock（ユニットテスト用）`
+ - 使用言語：`Java（ver.８以降）、Groovy、JavaScript（ES2015以降）、HTML5、CSS3`
+ - フレームワーク：`SpringBoot（ver.2以降）、Spock（ユニットテスト用）`
 ORM：`MyBatis`
 DB：`MySQL`
 ビルドシステム、ライブラリー管理：`Gradle`

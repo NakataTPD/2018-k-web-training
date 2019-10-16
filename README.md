@@ -15,4 +15,4 @@ Gradle
 ### 【開発IDE、ツール】
 IntelliJ(コミュニティ版)（Eclipseは使わない）、VSCode、A5Mk2
 ### 【対応ブラウザ】
-Google Chorome
+Google Chrome

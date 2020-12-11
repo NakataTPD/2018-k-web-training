@@ -1,0 +1,143 @@
+.header {
+  border: 1px solid #2f528f;
+  overflow: hidden;
+  float: left;
+  max-width: 500px;
+  position: relative;
+  height: 60px;
+  width: 500px;
+}
+.header-left {
+  padding: 0.5em 1.5em;
+  margin: 0.5em 0.5em;
+  float: left;
+  border: 1px solid #2f528f;
+}
+.header-right {
+  padding: 0.5em 6.4em;
+  margin: 0.5em 0.5em;
+  float: left;
+  border: 1px solid #2f528f;
+}
+.border {
+  clear: both;
+  border-top: dotted;
+  max-width: 500px;
+}
+.outline {
+  border: 1px solid #2f528f;
+  position: relative;
+  height: 300px;
+  width: 500px;
+}
+button {
+  border: 1px solid #2f528f;
+}
+.pailistbutton {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.footer-pairegisterbutton {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.footer-mainmenubutton {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+}
+.footer-registerbutton {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.footer-pailistbutton {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+}
+
+.footer-deletebutton {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+.footer-paialterbutton {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.footer-alterbutton {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+}
+.footer-paidetailbutton {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+}
+
+.manzu {
+  border: 1px solid #2f528f;
+  padding: 12px 8px;
+  margin: 3px 3px;
+}
+.souzu {
+  border: 1px solid #2f528f;
+  padding: 12px 8px;
+  margin: 3px 3px;
+}
+.pinzu {
+  border: 1px solid #2f528f;
+  padding: 12px 8px;
+  margin: 3px 3px;
+}
+.jihai {
+  border: 1px solid #2f528f;
+  padding: 12px 8px;
+  margin: 3px 3px;
+}
+
+label {
+  border: 1px solid #2f528f;
+  background-color: #fbe5d6;
+  padding: 10px 25px;
+  margin: 3px 3px;
+}
+select {
+  padding: 10px 25px;
+  margin: 3px 3px;
+}
+.selectbox {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.textbox {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+
+.inputpart {
+  padding: 10px 25px;
+  margin: 3px 3px;
+}
+
+output {
+  border: 1px solid #2f528f;
+  padding: 10px 70px;
+  margin: 3px 3px;
+}

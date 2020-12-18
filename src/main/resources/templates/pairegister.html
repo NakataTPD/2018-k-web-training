@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"
+    ></script>
+    <script
+      type="text/javascript"
+      th:src="@{/webjars/bootstrap/4.0.0/js/bootstrap.min.js}"
+    ></script>
+    <link rel="stylesheet" href="./../static/style.css" />
+    <title>牌登録画面</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-left">麻雀システム</div>
+        <div class="header-right">牌登録画面</div>
+      </div>
+    </header>
+    <!-- 牌データ入力部-->
+    <div class="border">
+      <div class="outline">
+        <div class="selectbox">
+          <label for="paicategory">牌の種類</label>
+          <select type="text" id="paicategory">
+            <option value="">選択してください</option>
+            <option value="M">萬子</option>
+            <option value="S">索子</option>
+            <option value="P">筒子</option>
+            <option value="J">字牌</option>
+          </select>
+        </div>
+        <div class="textbox">
+          <label for="painame">牌の名前</label>
+          <input class="inputpart" type="text" id="painame" placeholder="" />
+        </div>
+
+        <footer>
+          <div class="footer">
+            <div class="footer-registerbutton">
+              <input
+                type="button"
+                onclick="location.href='./pairegister.html'"
+                value="登録"
+              />
+            </div>
+            <div class="footer-pailistbutton">
+              <input
+                type="button"
+                onclick="location.href='./pailist.html'"
+                value="牌一覧"
+              />
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- ボタン-->
+    <!-- <form method="post" action="/pailist">
+      <input type="submit" value="登録" />
+    </form>
+    <form method="get" action="/pailist">
+      <input type="submit" value="牌一覧" />
+    </form>
+     -->
+  </body>
+</html>

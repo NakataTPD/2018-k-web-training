@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"
+    ></script>
+    <script
+      type="text/javascript"
+      th:src="@{/webjars/bootstrap/4.0.0/js/bootstrap.min.js}"
+    ></script>
+    <link rel="stylesheet" href="./../static/style.css" />
+    <title>牌一覧画面</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-left">麻雀システム</div>
+        <div class="header-right">牌一覧画面</div>
+      </div>
+    </header>
+    <!-- 牌データ一覧-->
+    <div class="border">
+      <div class="outline">
+        <ul>
+          <li>
+            <div class="manzu m0">萬子</div>
+            <div class="manzu m1"><a href="./paidetail.html">1</a></div>
+            <div class="manzu m2">2</div>
+            <div class="manzu m3">3</div>
+            <div class="manzu m4">4</div>
+            <div class="manzu m5">5</div>
+            <div class="manzu m6">6</div>
+            <div class="manzu m7">7</div>
+            <div class="manzu m8">8</div>
+            <div class="manzu m9">9</div>
+          </li>
+          <li>
+            <div class="souzu s0">索子</div>
+            <div class="souzu s1">1</div>
+            <div class="souzu s2">2</div>
+            <div class="souzu s3">3</div>
+            <div class="souzu s4">4</div>
+            <div class="souzu s5">5</div>
+            <div class="souzu s6">6</div>
+            <div class="souzu s7">7</div>
+            <div class="souzu s8">8</div>
+            <div class="souzu s9">9</div>
+          </li>
+          <li>
+            <div class="pinzu p0">筒子</div>
+            <div class="pinzu p1">1</div>
+            <div class="pinzu p2">2</div>
+            <div class="pinzu p3">3</div>
+            <div class="pinzu p4">4</div>
+            <div class="pinzu p5">5</div>
+            <div class="pinzu p6">6</div>
+            <div class="pinzu p7">7</div>
+            <div class="pinzu p8">8</div>
+            <div class="pinzu p9">9</div>
+          </li>
+          <li>
+            <div class="jihai j0">字牌</div>
+            <div class="jihai j1">東</div>
+            <div class="jihai j2">南</div>
+            <div class="jihai j3">西</div>
+            <div class="jihai j4">北</div>
+            <div class="jihai j5">白</div>
+            <div class="jihai j6">發</div>
+            <div class="jihai j7">中</div>
+          </li>
+        </ul>
+
+        <!-- ボタン-->
+        <!-- <div class="toPaiRegisterButton">
+          <form method="get" action="/pairegister">
+            <input type="submit" value="登録画面へ" />
+          </form>
+        </div> -->
+        <footer>
+          <div class="footer">
+            <div class="footer-pairegisterbutton">
+              <input
+                type="button"
+                onclick="location.href='./pairegister.html'"
+                value="登録画面へ"
+              />
+            </div>
+            <!-- <div class="toMainmenuButton">
+          <form method="get" action="/mainmenu">
+            <input type="submit" value="メインメニュー" />
+          </form>
+        </div> -->
+            <div class="footer-mainmenubutton">
+              <input
+                type="button"
+                onclick="location.href='./mainmenu.html'"
+                value="メインメニュー"
+              />
+            </div>
+          </div>
+        </footer>
+        <!-- <form method="get" action="/paidetail">
+          <input type="submit" value="詳細画面へ" />
+        </form> -->
+      </div>
+    </div>
+  </body>
+</html>

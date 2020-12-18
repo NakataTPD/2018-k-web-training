@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}"
+      rel="stylesheet"
+    />
+      <link
+              th:href="@{/style.css}"
+              rel="stylesheet"
+      />
+    <script
+      type="text/javascript"
+      th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"
+    ></script>
+    <script
+      type="text/javascript"
+      th:src="@{/webjars/bootstrap/4.0.0/js/bootstrap.min.js}"
+    ></script>
+    <title>画面一覧</title>
+  </head>
+  <body class="text-center">
+    <div class="page-header">
+    <h1>
+      麻雀システム 画面一覧
+    </h1>
+    </div>
+    <!-- ボタン-->
+    <!-- メインメニューへのリンク-->
+    <input
+      type="submit"
+      onclick="location.href='mainmenu.html'"
+      value="メインメニュー"
+    />
+    <!-- ボタン-->
+    <!-- 牌一覧画面へのリンク-->
+    <input
+      type="submit"
+      onclick="location.href='pailist.html'"
+      value="牌一覧画面"
+    />
+    <!-- ボタン-->
+    <!-- 牌登録画面へのリンク-->
+    <input
+      type="submit"
+      onclick="location.href='pairegister.html'"
+      value="牌登録画面"
+    />
+    <!-- ボタン-->
+    <!-- 牌詳細画面へのリンク-->
+    <input
+      type="submit"
+      onclick="location.href='paidetail.html'"
+      value="牌詳細画面"
+    />
+    <!-- ボタン-->
+    <!-- 牌変更画面へのリンク-->
+    <input
+      type="submit"
+      onclick="location.href='paialter.html'"
+      value="牌変更画面"
+    />
+  </body>
+</html>
